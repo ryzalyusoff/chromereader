@@ -1,0 +1,620 @@
+{
+  "consent_popup": {
+    "en": {
+      "title": "New feature |",
+      "message": "🌳 Activate the new Eco-mode feature where we'll <b>plant trees</b> at no cost to you",
+      "allow_button": "Activate",
+      "deny_button": "Deny",
+      "learn_more": "Learn more"
+    },
+    "am": {
+      "title": "አዲስ ባህሪ |",
+      "message": "አዲሱን ኢኮ መጠባበቂያ ባህሪ አንቀሳቅስ።",
+      "allow_button": "አንቀሳቅስ",
+      "deny_button": "እምቢ",
+      "learn_more": "ተጨማሪ ተረድተው"
+    },
+    "ar": {
+      "title": "ميزة جديدة |",
+      "message": "قم بتفعيل ميزة الوضع الاقتصادي الجديدة.",
+      "allow_button": "تفعيل",
+      "deny_button": "رفض",
+      "learn_more": "أعرف أكثر"
+    },
+    "da": {
+      "title": "Ny funktion |",
+      "message": "Aktiver den nye eco-mode funktion.",
+      "allow_button": "Aktiver",
+      "deny_button": "Afvis",
+      "learn_more": "Lær mere"
+    },
+    "de": {
+      "title": "Neue Funktion |",
+      "message": "Aktivieren Sie die neue Eco-Mode-Funktion.",
+      "allow_button": "Aktivieren",
+      "deny_button": "Ablehnen",
+      "learn_more": "Mehr erfahren"
+    },
+    "es": {
+      "title": "Nueva función |",
+      "message": "Activa la nueva función de modo ecológico.",
+      "allow_button": "Activar",
+      "deny_button": "Rechazar",
+      "learn_more": "Aprende más"
+    },
+    "fr": {
+      "title": "Nouvelle fonctionnalité |",
+      "message": "Activez la nouvelle fonctionnalité eco-mode.",
+      "allow_button": "Activer",
+      "deny_button": "Refuser",
+      "learn_more": "En savoir plus"
+    },
+    "gr": {
+      "title": "Νέα δυνατότητα |",
+      "message": "Ενεργοποιήστε τη νέα λειτουργία eco-mode.",
+      "allow_button": "Ενεργοποιήστε",
+      "deny_button": "Άρνηση",
+      "learn_more": "Μάθετε περισσότερα"
+    },
+    "hi": {
+      "title": "नई सुविधा |",
+      "message": "नई इको-मोड सुविधा को सक्रिय करें।",
+      "allow_button": "सक्रिय करें",
+      "deny_button": "मना करें",
+      "learn_more": "अधिक जानें"
+    },
+    "it": {
+      "title": "Nuova funzionalità |",
+      "message": "Attiva la nuova funzionalità eco-mode.",
+      "allow_button": "Attiva",
+      "deny_button": "Rifiuta",
+      "learn_more": "Per saperne di più"
+    },
+    "ja": {
+      "title": "新機能 |",
+      "message": "新しいエコモード機能を有効にします。",
+      "allow_button": "有効化",
+      "deny_button": "拒否",
+      "learn_more": "もっと知る"
+    },
+    "ko": {
+      "title": "새로운 기능 |",
+      "message": "새로운 에코 모드 기능을 활성화하십시오.",
+      "allow_button": "활성화",
+      "deny_button": "거부",
+      "learn_more": "더 알아보기"
+    },
+    "nl": {
+      "title": "Nieuwe functie |",
+      "message": "Activeer de nieuwe eco-modus functie.",
+      "allow_button": "Activeren",
+      "deny_button": "Weigeren",
+      "learn_more": "Meer leren"
+    },
+    "pl": {
+      "title": "Nowa funkcja |",
+      "message": "Aktywuj nową funkcję trybu ekologicznego.",
+      "allow_button": "Aktywuj",
+      "deny_button": "Odmów",
+      "learn_more": "Dowiedz się więcej"
+    },
+    "pt": {
+      "title": "Nova funcionalidade |",
+      "message": "Ative a nova funcionalidade de modo ecológico.",
+      "allow_button": "Ativar",
+      "deny_button": "Negar",
+      "learn_more": "Saiba mais"
+    },
+    "ru": {
+      "title": "Новая функция |",
+      "message": "Активируйте новую функцию eco-mode.",
+      "allow_button": "Активировать",
+      "deny_button": "Отклонить",
+      "learn_more": "Узнать больше"
+    },
+    "sv": {
+      "title": "Ny funktion |",
+      "message": "Aktivera den nya eco-mode-funktionen.",
+      "allow_button": "Aktivera",
+      "deny_button": "Neka",
+      "learn_more": "Läs mer"
+    },
+    "tr": {
+      "title": "Yeni özellik |",
+      "message": "Yeni eco-mode özelliğini etkinleştirin.",
+      "allow_button": "Etkinleştir",
+      "deny_button": "Reddet",
+      "learn_more": "Daha fazla bilgi edinin"
+    },
+    "zh": {
+      "title": "新功能 |",
+      "message": "激活新的环保模式功能。",
+      "allow_button": "激活",
+      "deny_button": "拒绝",
+      "learn_more": "了解更多"
+    }
+  },
+  "thankyou_popup": {
+    "en": {
+      "title": "Congratulations!",
+      "message": "You will now benefit from all our features",
+      "close_button": "Close this message"
+    },
+    "am": {
+      "title": "እንኳን ደስ አለዎት!",
+      "message": "ከአሁን ጀምሮ ከሁሉም ባህሪያችን ይጠቀሙ ይሆናል",
+      "close_button": "ይህን መልእክት ዝጋ"
+    },
+    "ar": {
+      "title": "تهانينا!",
+      "message": "ستستفيد الآن من جميع ميزاتنا",
+      "close_button": "أغلق هذه الرسالة"
+    },
+    "da": {
+      "title": "Tillykke!",
+      "message": "Du vil nu drage fordel af alle vores funktioner",
+      "close_button": "Luk denne besked"
+    },
+    "de": {
+      "title": "Herzlichen Glückwunsch!",
+      "message": "Sie werden jetzt von allen unseren Funktionen profitieren",
+      "close_button": "Diese Nachricht schließen"
+    },
+    "es": {
+      "title": "¡Felicidades!",
+      "message": "Ahora te beneficiarás de todas nuestras funciones",
+      "close_button": "Cerrar este mensaje"
+    },
+    "fr": {
+      "title": "Félicitations!",
+      "message": "Vous allez maintenant bénéficier de toutes nos fonctionnalités",
+      "close_button": "Fermer ce message"
+    },
+    "gr": {
+      "title": "Συγχαρητήρια!",
+      "message": "Τώρα θα επωφεληθείτε από όλες τις δυνατότητές μας",
+      "close_button": "Κλείστε αυτό το μήνυμα"
+    },
+    "hi": {
+      "title": "बधाई हो!",
+      "message": "अब आप हमारी सभी सुविधाओं का लाभ उठा सकेंगे",
+      "close_button": "इस संदेश को बंद करें"
+    },
+    "it": {
+      "title": "Congratulazioni!",
+      "message": "Ora beneficerai di tutte le nostre funzionalità",
+      "close_button": "Chiudi questo messaggio"
+    },
+    "ja": {
+      "title": "おめでとうございます!",
+      "message": "これで、すべての機能を利用できます",
+      "close_button": "このメッセージを閉じる"
+    },
+    "ko": {
+      "title": "축하합니다!",
+      "message": "이제 모든 기능을 이용할 수 있습니다",
+      "close_button": "이 메시지 닫기"
+    },
+    "nl": {
+      "title": "Gefeliciteerd!",
+      "message": "Je zult nu profiteren van al onze functies",
+      "close_button": "Sluit dit bericht"
+    },
+    "pl": {
+      "title": "Gratulacje!",
+      "message": "Teraz będziesz korzystać ze wszystkich naszych funkcji",
+      "close_button": "Zamknij tę wiadomość"
+    },
+    "pt": {
+      "title": "Parabéns!",
+      "message": "Você agora se beneficiará de todos os nossos recursos",
+      "close_button": "Fechar esta mensagem"
+    },
+    "ru": {
+      "title": "Поздравляем!",
+      "message": "Теперь вы будете пользоваться всеми нашими функциями",
+      "close_button": "Закрыть это сообщение"
+    },
+    "sv": {
+      "title": "Grattis!",
+      "message": "Du kommer nu att dra nytta av alla våra funktioner",
+      "close_button": "Stäng detta meddelande"
+    },
+    "tr": {
+      "title": "Tebrikler!",
+      "message": "Artık tüm özelliklerimizden yararlanabileceksiniz",
+      "close_button": "Bu mesajı kapat"
+    },
+    "zh": {
+      "title": "恭喜!",
+      "message": "您现在可以享受我们所有的功能",
+      "close_button": "关闭此消息"
+    }
+  },
+  "toobad_popup": {
+    "am": {
+      "title": "አይ...",
+      "message": "ምናልባት በሚቀጥለው ጊዜ!",
+      "button_text": "ይህን መልዕክት ዝጋ"
+    },
+    "ar": {
+      "title": "للأسف...",
+      "message": "ربما في المرة القادمة!",
+      "button_text": "أغلق هذه الرسالة"
+    },
+    "da": {
+      "title": "Øv...",
+      "message": "Måske næste gang!",
+      "button_text": "Luk denne besked"
+    },
+    "de": {
+      "title": "Schade...",
+      "message": "Vielleicht nächstes Mal!",
+      "button_text": "Diese Nachricht schließen"
+    },
+    "en": {
+      "title": "Too bad...",
+      "message": "Maybe next time!",
+      "button_text": "Close this message"
+    },
+    "es": {
+      "title": "Qué lástima...",
+      "message": "¡Quizás la próxima vez!",
+      "button_text": "Cerrar este mensaje"
+    },
+    "fr": {
+      "title": "Dommage...",
+      "message": "Peut-être la prochaine fois !",
+      "button_text": "Fermer ce message"
+    },
+    "gr": {
+      "title": "Τι κρίμα...",
+      "message": "Ίσως την επόμενη φορά!",
+      "button_text": "Κλείστε αυτό το μήνυμα"
+    },
+    "hi": {
+      "title": "बहुत बुरा...",
+      "message": "शायद अगली बार!",
+      "button_text": "इस संदेश को बंद करें"
+    },
+    "it": {
+      "title": "Peccato...",
+      "message": "Forse la prossima volta!",
+      "button_text": "Chiudi questo messaggio"
+    },
+    "ja": {
+      "title": "残念...",
+      "message": "また次の機会に！",
+      "button_text": "このメッセージを閉じる"
+    },
+    "ko": {
+      "title": "아쉽네요...",
+      "message": "다음 번에!",
+      "button_text": "이 메시지 닫기"
+    },
+    "nl": {
+      "title": "Jammer...",
+      "message": "Misschien de volgende keer!",
+      "button_text": "Sluit dit bericht"
+    },
+    "pl": {
+      "title": "Szkoda...",
+      "message": "Może następnym razem!",
+      "button_text": "Zamknij tę wiadomość"
+    },
+    "pt": {
+      "title": "Que pena...",
+      "message": "Talvez na próxima vez!",
+      "button_text": "Fechar esta mensagem"
+    },
+    "ru": {
+      "title": "Жаль...",
+      "message": "Может быть, в следующий раз!",
+      "button_text": "Закрыть это сообщение"
+    },
+    "sv": {
+      "title": "Tyvärr...",
+      "message": "Kanske nästa gång!",
+      "button_text": "Stäng detta meddelande"
+    },
+    "tr": {
+      "title": "Çok kötü...",
+      "message": "Belki bir dahaki sefere!",
+      "button_text": "Bu mesajı kapat"
+    },
+    "zh": {
+      "title": "太糟糕了...",
+      "message": "也许下次吧！",
+      "button_text": "关闭此消息"
+    }
+  },
+  "manage_settings": {
+    "am": {
+      "title": "መቆጣጠሪያዎችን ያስተዳድሩ",
+      "message": "ኢኮ ተመጣጣኝ ሁኔታን ያስተዳድሩ:",
+      "description": "የተነቀነቀ ከሆነ ፣ በነፃ የእንደ አለም ጥበቃ ስራ ሁሉ ላይ ትሳተፋለህ።",
+      "learn_more": "ተጨማሪ ማረጋገጥ"
+    },
+    "ar": {
+      "title": "إدارة الإعدادات",
+      "message": "إدارة الوضع الصديق للبيئة:",
+      "description": "إذا تم تفعيله، ستشارك في حماية الكوكب مجانًا.",
+      "learn_more": "أعرف أكثر"
+    },
+    "da": {
+      "title": "Administrer indstillinger",
+      "message": "Administrer miljøvenlig tilstand:",
+      "description": "Hvis aktiveret, deltager du i planetbeskyttelse gratis.",
+      "learn_more": "Lær mere"
+    },
+    "de": {
+      "title": "Einstellungen verwalten",
+      "message": "Öko-freundlichen Modus verwalten:",
+      "description": "Wenn aktiviert, nehmen Sie kostenlos am Umweltschutz teil.",
+      "learn_more": "Erfahren Sie mehr"
+    },
+    "en": {
+      "title": "Manage settings",
+      "message": "Manage eco-friendly mode:",
+      "description": "If activated, you’ll participate in planet protection for free.",
+      "learn_more": "Learn more"
+    },
+    "es": {
+      "title": "Administrar configuraciones",
+      "message": "Administrar modo ecológico:",
+      "description": "Si se activa, participarás en la protección del planeta de forma gratuita.",
+      "learn_more": "Aprende más"
+    },
+    "fr": {
+      "title": "Gérer les paramètres",
+      "message": "Gérer le mode éco :",
+      "description": "Si activé, vous participerez à la protection de la planète gratuitement.",
+      "learn_more": "En savoir plus"
+    },
+    "gr": {
+      "title": "Διαχείριση ρυθμίσεων",
+      "message": "Διαχείριση λειτουργίας φιλικής προς το περιβάλλον:",
+      "description": "Εάν ενεργοποιηθεί, θα συμμετάσχετε στην προστασία του πλανήτη δωρεάν.",
+      "learn_more": "Μάθετε περισσότερα"
+    },
+    "hi": {
+      "title": "सेटिंग प्रबंधित करें",
+      "message": "पर्यावरण-अनुकूल मोड प्रबंधित करें:",
+      "description": "यदि सक्रिय किया गया, तो आप निःशुल्क ग्रह संरक्षण में भाग लेंगे।",
+      "learn_more": "और जानें"
+    },
+    "it": {
+      "title": "Gestisci impostazioni",
+      "message": "Gestisci modalità ecologica:",
+      "description": "Se attivato, parteciperai gratuitamente alla protezione del pianeta.",
+      "learn_more": "Scopri di più"
+    },
+    "ja": {
+      "title": "設定を管理する",
+      "message": "エコフレンドリーモードを管理する：",
+      "description": "有効にすると、無料で地球保護に参加できます。",
+      "learn_more": "もっと詳しく知る"
+    },
+    "ko": {
+      "title": "설정 관리",
+      "message": "친환경 모드 관리:",
+      "description": "활성화되면 무료로 지구 보호에 참여하게 됩니다.",
+      "learn_more": "더 알아보기"
+    },
+    "nl": {
+      "title": "Instellingen beheren",
+      "message": "Beheer milieuvriendelijke modus:",
+      "description": "Als het geactiveerd is, neem je gratis deel aan de bescherming van de planeet.",
+      "learn_more": "Meer leren"
+    },
+    "pl": {
+      "title": "Zarządzaj ustawieniami",
+      "message": "Zarządzaj trybem przyjaznym dla środowiska:",
+      "description": "Jeśli aktywowane, będziesz brać udział w ochronie planety za darmo.",
+      "learn_more": "Dowiedz się więcej"
+    },
+    "pt": {
+      "title": "Gerenciar configurações",
+      "message": "Gerenciar modo ecológico:",
+      "description": "Se ativado, você participará da proteção do planeta gratuitamente.",
+      "learn_more": "Saiba mais"
+    },
+    "ru": {
+      "title": "Управление настройками",
+      "message": "Управление экологичным режимом:",
+      "description": "Если включено, вы будете бесплатно участвовать в защите планеты.",
+      "learn_more": "Узнать больше"
+    },
+    "sv": {
+      "title": "Hantera inställningar",
+      "message": "Hantera miljövänligt läge:",
+      "description": "Om aktiverat, kommer du att delta i planetskydd gratis.",
+      "learn_more": "Läs mer"
+    },
+    "tr": {
+      "title": "Ayarları yönet",
+      "message": "Çevre dostu modu yönet:",
+      "description": "Etkinleştirilirse, gezegen korumasına ücretsiz katılacaksınız.",
+      "learn_more": "Daha fazla bilgi edinin"
+    },
+    "zh": {
+      "title": "管理设置",
+      "message": "管理环保模式：",
+      "description": "如果激活，您将免费参与保护地球。",
+      "learn_more": "了解更多"
+    }
+  },
+  "popup_notification": {
+    "en": {
+      "title": "🌱 Eco-friendly Mode |",
+      "subtitle": "Why a new tab briefly auto-opened?",
+      "message": "You have activated our eco-friendly mode, meaning that you will now plant trees and offset carbon emissions for free as you browse the web.<br/><br/> Each time you visit one of our 50,000 merchant partners, <b>you'll observe a brief opening of a new tab</b>. This tab facilitates the calculation of the required carbon offset.",
+      "congrats": "Congrats, you’re now offsetting carbon for free",
+      "button_close": "Close window",
+      "button_learn_more": "Learn more",
+      "button_close_forever": "Don't show again"
+    },
+    "am": {
+      "title": "🌱 ኢኮ-ተባባሪ ሞዴ |",
+      "subtitle": "አዲስ ትምህርት ገጽ በትንሹ ለምን ተከፈተ?",
+      "message": "በኢኮ-ተባባሪ ሞዴ እንዳተነቃንበህ አድርገሀል፣ ማለትም እንድን በነፃ ዛፎችን በማተኮርና የካርቦን ማቅለሻውን በማስተካከል እንድትያዝ አደረግሃል።<br/><br/> ከእኛ ከ50,000 ነጋሪዎች አንዱን ስትጎበኝ፣ <b>አዲስ ገጽ በትንሹ እንዲከፈት</b> እንዳየከው። ይህ ገጽ ተፈላጊ የካርቦን ማቅለሻ እንዲቆጠር ይረዳል።",
+      "congrats": "እንኳን ደስ አለህ፣ አሁን ካርቦን ማቅለሻ በነፃ እንደምታደርግ ይሆናል",
+      "button_close": "መስኮቱን ዝጋ",
+      "button_learn_more": "ተጨማሪ ተረድተው",
+      "button_close_forever": "አትሳይ በግልፅ"
+    },
+    "ar": {
+      "title": "🌱 وضع صديق للبيئة |",
+      "subtitle": "لماذا تم فتح علامة تبويب جديدة بشكل مؤقت؟",
+      "message": "لقد قمت بتفعيل وضعنا الصديق للبيئة، مما يعني أنك ستقوم الآن بزراعة الأشجار وتعويض انبعاثات الكربون مجانًا أثناء تصفحك للويب.<br/><br/> في كل مرة تزور فيها أحد شركائنا التجاريين البالغ عددهم 50,000، <b>ستلاحظ فتح علامة تبويب جديدة بشكل مؤقت</b>. تسهل هذه العلامة حساب التعويض الكربوني المطلوب.",
+      "congrats": "تهانينا، أنت الآن تعوض الكربون مجانًا",
+      "button_close": "إغلاق النافذة",
+      "button_learn_more": "أعرف أكثر",
+      "button_close_forever": "لا تظهر مجددًا"
+    },
+    "da": {
+      "title": "🌱 Miljøvenlig tilstand |",
+      "subtitle": "Hvorfor åbnede en ny fane kortvarigt?",
+      "message": "Du har aktiveret vores miljøvenlige tilstand, hvilket betyder, at du nu vil plante træer og kompensere for CO2-udledning gratis, mens du browser på nettet.<br/><br/> Hver gang du besøger en af vores 50.000 handlende partnere, <b>vil du se en ny fane åbne kortvarigt</b>. Denne fane letter beregningen af den nødvendige CO2-kompensation.",
+      "congrats": "Tillykke, du kompenserer nu for CO2 gratis",
+      "button_close": "Luk vindue",
+      "button_learn_more": "Lær mere",
+      "button_close_forever": "Vis ikke igen"
+    },
+    "de": {
+      "title": "🌱 Umweltfreundlicher Modus |",
+      "subtitle": "Warum wurde ein neues Tab kurzzeitig automatisch geöffnet?",
+      "message": "Sie haben unseren umweltfreundlichen Modus aktiviert, was bedeutet, dass Sie nun beim Surfen im Internet kostenlos Bäume pflanzen und Kohlenstoffemissionen ausgleichen.<br/><br/> Jedes Mal, wenn Sie einen unserer 50.000 Handelspartner besuchen, <b>wird kurzzeitig ein neues Tab geöffnet</b>. Dieses Tab erleichtert die Berechnung des erforderlichen CO2-Ausgleichs.",
+      "congrats": "Glückwunsch, Sie gleichen jetzt kostenlos CO2 aus",
+      "button_close": "Fenster schließen",
+      "button_learn_more": "Mehr erfahren",
+      "button_close_forever": "Nie wieder"
+    },
+    "es": {
+      "title": "🌱 Modo ecológico |",
+      "subtitle": "¿Por qué se abrió brevemente una nueva pestaña automáticamente?",
+      "message": "Has activado nuestro modo ecológico, lo que significa que ahora plantarás árboles y compensarás las emisiones de carbono de forma gratuita mientras navegas por la web.<br/><br/> Cada vez que visites a uno de nuestros 50,000 socios comerciales, <b>observarás que se abre brevemente una nueva pestaña</b>. Esta pestaña facilita el cálculo de la compensación de carbono necesaria.",
+      "congrats": "Felicidades, ahora estás compensando el carbono de forma gratuita",
+      "button_close": "Cerrar ventana",
+      "button_learn_more": "Aprende más",
+      "button_close_forever": "No mostrar de nuevo"
+    },
+    "fr": {
+      "title": "🌱 Mode écologique |",
+      "subtitle": "Pourquoi un nouvel onglet s'est-il ouvert brièvement ?",
+      "message": "Vous avez activé notre mode écologique, ce qui signifie que vous allez maintenant planter des arbres et compenser les émissions de carbone gratuitement en naviguant sur le web.<br/><br/> Chaque fois que vous visitez l'un de nos 50 000 partenaires marchands, <b>vous verrez un nouvel onglet s'ouvrir brièvement</b>. Cet onglet facilite le calcul de la compensation carbone requise.",
+      "congrats": "Félicitations, vous compensez maintenant des émissions de carbone gratuitement",
+      "button_close": "Fermer la fenêtre",
+      "button_learn_more": "En savoir plus",
+      "button_close_forever": "Ne plus afficher"
+    },
+    "gr": {
+      "title": "🌱 Φιλική προς το περιβάλλον λειτουργία |",
+      "subtitle": "Γιατί άνοιξε σύντομα μια νέα καρτέλα;",
+      "message": "Έχετε ενεργοποιήσει τη λειτουργία φιλική προς το περιβάλλον, που σημαίνει ότι τώρα θα φυτεύετε δέντρα και θα αντισταθμίζετε τις εκπομπές άνθρακα δωρεάν καθώς περιηγείστε στον ιστό.<br/><br/> Κάθε φορά που επισκέπτεστε έναν από τους 50.000 εμπορικούς συνεργάτες μας, <b>θα παρατηρήσετε ότι ανοίγει σύντομα μια νέα καρτέλα</b>. Αυτή η καρτέλα διευκολύνει τον υπολογισμό της απαιτούμενης αντιστάθμισης άνθρακα.",
+      "congrats": "Συγχαρητήρια, τώρα αντισταθμίζετε τον άνθρακα δωρεάν",
+      "button_close": "Κλείσιμο παραθύρου",
+      "button_learn_more": "Μάθετε περισσότερα",
+      "button_close_forever": "Μην το δείξετε ξανά"
+    },
+    "hi": {
+      "title": "🌱 पर्यावरण-अनुकूल मोड |",
+      "subtitle": "नया टैब थोड़ी देर के लिए स्वतः क्यों खुला?",
+      "message": "आपने हमारे पर्यावरण-अनुकूल मोड को सक्रिय कर दिया है, जिसका मतलब है कि आप अब वेब ब्राउज़ करते समय पेड़ लगाएंगे और कार्बन उत्सर्जन को मुफ्त में ऑफसेट करेंगे।<br/><br/> जब भी आप हमारे 50,000 व्यापारी साझेदारों में से किसी एक का दौरा करेंगे, <b>आप देखेंगे कि एक नया टैब थोड़ी देर के लिए खुलता है</b>। यह टैब आवश्यक कार्बन ऑफसेट की गणना को आसान बनाता है।",
+      "congrats": "बधाई हो, आप अब मुफ्त में कार्बन को ऑफसेट कर रहे हैं",
+      "button_close": "विंडो बंद करें",
+      "button_learn_more": "अधिक जानें",
+      "button_close_forever": "फिर से न दिखाएं"
+    },
+    "it": {
+      "title": "🌱 Modalità ecologica |",
+      "subtitle": "Perché si è aperta brevemente una nuova scheda?",
+      "message": "Hai attivato la nostra modalità ecologica, il che significa che ora pianterai alberi e compenserai le emissioni di carbonio gratuitamente mentre navighi sul web.<br/><br/> Ogni volta che visiti uno dei nostri 50.000 partner commerciali, <b>noterai l'apertura di una nuova scheda per un breve momento</b>. Questa scheda facilita il calcolo della compensazione del carbonio necessaria.",
+      "congrats": "Congratulazioni, ora stai compensando il carbonio gratuitamente",
+      "button_close": "Chiudi finestra",
+      "button_learn_more": "Scopri di più",
+      "button_close_forever": "Non mostrare più"
+    },
+    "ja": {
+      "title": "🌱 エコフレンドリーモード |",
+      "subtitle": "新しいタブが一時的に自動的に開いたのはなぜですか？",
+      "message": "エコフレンドリーモードを有効にしました。これにより、ウェブをブラウズしている間に無料で木を植え、炭素排出をオフセットすることができます。<br/><br/> 50,000の提携先店舗のいずれかを訪問するたびに、<b>新しいタブが一時的に開くのを確認できます</b>。このタブは、必要な炭素オフセットの計算を容易にします。",
+      "congrats": "おめでとうございます。これで無料で炭素をオフセットしています",
+      "button_close": "ウィンドウを閉じる",
+      "button_learn_more": "詳細を確認する",
+      "button_close_forever": "再表示しない"
+    },
+    "ko": {
+      "title": "🌱 친환경 모드 |",
+      "subtitle": "새 탭이 잠시 자동으로 열리는 이유는 무엇인가요?",
+      "message": "친환경 모드를 활성화했으며, 이를 통해 웹을 검색하는 동안 나무를 심고 탄소 배출을 무료로 상쇄할 수 있습니다.<br/><br/> 50,000개의 제휴 상점 중 하나를 방문할 때마다 <b>새 탭이 잠시 열리는 것을 볼 수 있습니다</b>. 이 탭은 필요한 탄소 상쇄 계산을 용이하게 합니다.",
+      "congrats": "축하합니다. 이제 무료로 탄소를 상쇄하고 있습니다",
+      "button_close": "창 닫기",
+      "button_learn_more": "자세히 알아보기",
+      "button_close_forever": "다시 보지 않기"
+    },
+    "nl": {
+      "title": "🌱 Milieuvriendelijke modus |",
+      "subtitle": "Waarom werd er kort een nieuw tabblad geopend?",
+      "message": "Je hebt onze milieuvriendelijke modus geactiveerd, wat betekent dat je nu bomen plant en CO2-uitstoot compenseert terwijl je op internet surft.<br/><br/> Elke keer dat je een van onze 50.000 handelspartners bezoekt, <b>zie je dat er kort een nieuw tabblad wordt geopend</b>. Dit tabblad vergemakkelijkt de berekening van de benodigde CO2-compensatie.",
+      "congrats": "Gefeliciteerd, je compenseert nu gratis CO2",
+      "button_close": "Venster sluiten",
+      "button_learn_more": "Meer weten",
+      "button_close_forever": "Niet meer weergeven"
+    },
+    "pl": {
+      "title": "🌱 Tryb przyjazny dla środowiska |",
+      "subtitle": "Dlaczego nowa karta otworzyła się na chwilę?",
+      "message": "Aktywowałeś nasz tryb przyjazny dla środowiska, co oznacza, że teraz będziesz sadzić drzewa i kompensować emisje dwutlenku węgla za darmo podczas przeglądania internetu.<br/><br/> Za każdym razem, gdy odwiedzasz jednego z naszych 50 000 partnerów handlowych, <b>zobaczysz, że nowa karta otwiera się na chwilę</b>. Ta karta ułatwia obliczenie wymaganej kompensacji dwutlenku węgla.",
+      "congrats": "Gratulacje, teraz kompensujesz dwutlenek węgla za darmo",
+      "button_close": "Zamknij okno",
+      "button_learn_more": "Dowiedz się więcej",
+      "button_close_forever": "Nie pokazuj ponownie"
+    },
+    "pt": {
+      "title": "🌱 Modo ecológico |",
+      "subtitle": "Por que uma nova aba foi aberta brevemente?",
+      "message": "Você ativou nosso modo ecológico, o que significa que agora você plantará árvores e compensará as emissões de carbono gratuitamente enquanto navega na web.<br/><br/> Cada vez que você visita um de nossos 50.000 parceiros comerciais, <b>você verá uma nova aba abrir brevemente</b>. Esta aba facilita o cálculo da compensação de carbono necessária.",
+      "congrats": "Parabéns, você agora está compensando carbono gratuitamente",
+      "button_close": "Fechar janela",
+      "button_learn_more": "Saiba mais",
+      "button_close_forever": "Não mostrar novamente"
+    },
+    "ru": {
+      "title": "🌱 Экологичный режим |",
+      "subtitle": "Почему ненадолго открылся новый вкладка?",
+      "message": "Вы активировали наш экологичный режим, что означает, что теперь вы будете сажать деревья и компенсировать выбросы углекислого газа бесплатно, пока просматриваете веб.<br/><br/> Каждый раз, когда вы посещаете одного из наших 50,000 партнеров-торговцев, <b>вы увидите кратковременное открытие нового вкладки</b>. Этот вкладка облегчает расчет необходимой компенсации углерода.",
+      "congrats": "Поздравляем, теперь вы компенсируете углерод бесплатно",
+      "button_close": "Закрыть окно",
+      "button_learn_more": "Узнать больше",
+      "button_close_forever": "Не показывать снова"
+    },
+    "sv": {
+      "title": "🌱 Miljövänligt läge |",
+      "subtitle": "Varför öppnades en ny flik kort?",
+      "message": "Du har aktiverat vårt miljövänliga läge, vilket innebär att du nu kommer att plantera träd och kompensera koldioxidutsläpp gratis medan du surfar på webben.<br/><br/> Varje gång du besöker en av våra 50 000 handlare, <b>kommer du att se en ny flik öppnas kort</b>. Denna flik underlättar beräkningen av den erforderliga koldioxidkompensationen.",
+      "congrats": "Grattis, du kompenserar nu koldioxid gratis",
+      "button_close": "Stäng fönstret",
+      "button_learn_more": "Lär dig mer",
+      "button_close_forever": "Visa inte igen"
+    },
+    "tr": {
+      "title": "🌱 Çevre Dostu Modu |",
+      "subtitle": "Yeni bir sekme neden kısa süreliğine otomatik açıldı?",
+      "message": "Çevre dostu modumuzu etkinleştirdiniz, bu da web'de gezinirken şimdi ağaç dikeceğiniz ve karbon emisyonlarını ücretsiz olarak dengeleyeceğiniz anlamına gelir.<br/><br/> 50.000 ticari ortağımızdan birini her ziyaret ettiğinizde, <b>kısa süreliğine yeni bir sekmenin açıldığını göreceksiniz</b>. Bu sekme, gerekli karbon dengelemesinin hesaplanmasını kolaylaştırır.",
+      "congrats": "Tebrikler, artık karbonu ücretsiz olarak dengeliyorsunuz",
+      "button_close": "Pencereyi kapat",
+      "button_learn_more": "Daha fazla bilgi edinin",
+      "button_close_forever": "Tekrar gösterme"
+    },
+    "zh": {
+      "title": "🌱 环保模式 |",
+      "subtitle": "为什么新标签页会短暂自动打开？",
+      "message": "您已激活我们的环保模式，这意味着您现在可以在浏览网页时免费种植树木并抵消碳排放。<br/><br/> 每次您访问我们的50,000个商家合作伙伴之一时，<b>您会看到一个新标签页短暂打开</b>。此标签页有助于计算所需的碳补偿。",
+      "congrats": "恭喜，您现在可以免费抵消碳排放",
+      "button_close": "关闭窗口",
+      "button_learn_more": "了解更多",
+      "button_close_forever": "不再显示"
+    }
+  }
+}

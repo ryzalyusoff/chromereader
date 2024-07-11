@@ -1,0 +1,936 @@
+<div id="cr-body" style="display: none;">
+  <!-- Outline -->
+  <div id="cr-outline" class="cr-sidebar-section no-print">
+    <h3>OUTLINE</h3>
+    <ul id="cr-outline-list">
+    </ul>
+  </div>
+
+  <div id="cr-container">
+    <!-- Saved notice -->
+    <div id="cr-saved-notice" style="display:none;">
+      <i class='fas fa-check-circle m-r-3'></i> Saved
+    </div>
+
+    <!-- Main Menu -->
+    <ul id="options-menu" class="no-print">
+      <li>
+        <a href="#/" id="options-close" class="tooltip" title="Close">
+          <i class="material-icons">close</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-fullscreen" class="tooltip" title="Fullscreen">
+          <i class="material-icons enter">fullscreen</i>
+          <i class="material-icons exit" style="display: none;">fullscreen_exit</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-save-page" data-panel="options-saved-panel" class="tooltip" title="Save Article">
+          <i class="material-icons">save</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-print" class="tooltip" title="Print">
+          <i class="material-icons">print</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-articulate-toggle" data-panel="options-articulate-panel" class="tooltip" title="Text To Speech">
+          <i class="material-icons">volume_up</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-main-panel-toggle" data-panel="options-main-panel" class="tooltip" title="Settings">
+          <i class="material-icons">tune</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-delete-element" class="tooltip" title="Delete Elements">
+          <i class="options-delete-element material-icons">delete</i>
+        </a>
+        <a href="#/" id="options-delete-element-stop" class="tooltip" title="Stop Deletion Mode" style="display:none;">
+          <i class="options-delete-element material-icons">delete_forever</i>
+        </a>
+      </li>
+      <li>
+        <a href="#/" id="options-delete-element-undo" class="tooltip" title="Undo Deleted Elements" style="display:none;">
+          <i class="options-delete-element material-icons">undo</i>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Main Panel -->
+    <div id="options-main-panel" class="options-panel no-print" style="display:none;">
+      <button class="options-panel-header active"><i class="fas fa-font"></i> &nbsp;STYLE <i class="fas fa-chevron-down marker"></i></button>
+      <div class="options-panel-content active">
+        <!--<label class="label-header">BASICS</label>-->
+
+        <div id="options-font-family" class="options-panel-content-section">
+          <label class="float-left">Font Style</label>
+          <select class="float-right">
+            <option value="Arial">Arial</option>
+            <option value="Arial Black">Arial Black</option>
+            <option value="Serif">Serif</option>
+            <option value="sans-serif">Sans-serif</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Courier">Courier</option>
+            <option value="OpenDyslexic">OpenDyslexic</option>
+            <option value="LexendDeca">LexendDeca</option>
+            <option value="Lora">Lora</option>
+            <option value="" title="Pro/Premium feature" disabled>OpenDyslexic Mono &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>OpenDyslexic Bold &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>OpenDyslexic Italic &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>OpenDyslexic BoldItalic &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lexend Exa &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lexend Giga &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lexend Mega &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lexend Peta &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lexend Tera &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lexend Zetta &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lora Bold &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lora Italic &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Lora BoldItalic &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Iowan Old Style &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Sitka Text &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Palatino &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Athelas &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Constantia &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Comic Sans &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Verdana &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Georgia &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Palatino &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Comic Sans MS &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Trebuchet MS &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Seravek &nbsp;💎</option>
+            <option value="" title="Pro/Premium feature" disabled>Impact &nbsp;💎</option>
+          </select>
+        </div>
+
+        <div class="options-panel-content-section options-with-slider">
+          <div id="options-max-width" class="section-split section-split-left">
+            <label class="float-left label-inline-block m-t-18i">Width</label>
+            <div class="input-label input-label-px float-right">
+              <input type="number" class="val" value="680" autocomplete="off"   />
+            </div>
+          </div>
+          <div id="options-font-size" class="section-split section-split-right">
+            <label class="float-left">Font<br/>Size</label>
+            <div class="input-label input-label-px float-right">
+              <input type="number" class="val" value="14" autocomplete="off"  />
+            </div>
+          </div>
+        </div>
+
+        <div class="options-panel-content-section options-with-slider">
+          <div id="options-line-height" class="section-split section-split-left">
+            <label class="float-left">Line<br/>Height</label>
+            <div class="input-label input-label-em float-right">
+              <input type="number" class="val" value="1.84" autocomplete="offf"  />
+            </div>
+          </div>
+          <div id="options-letter-space" class="section-split section-split-right">
+            <label class="float-left">Letter<br/>Space</label>
+            <div class="input-label input-label-px float-right">
+              <input type="number" class="val" value="0" autocomplete="offf"  />
+            </div>
+          </div>
+        </div>
+
+        <button name="save-options-style" class="btn btn-save-changes m-t-20">Save changes</button>
+      </div>
+
+      <button class="options-panel-header"><i class="fas fa-swatchbook"></i> &nbsp;THEMES <i class="fas fa-chevron-down marker"></i></button>
+      <div class="options-panel-content">
+        <div id="options-theme" class="options-panel-content-section m-t-10">
+          <label>Theme</label>
+          <ul>
+            <li>
+              <a href="#/" class="options-theme-light active" data-theme="cr-theme-light"></a>
+              <span class="label">Light</span>
+            </li>
+            <li>
+              <a href="#/" class="options-theme-dark" data-theme="cr-theme-dark"></a>
+              <span class="label">Dark</span>
+            </li>
+            <li>
+              <a href="#/" class="options-theme-custom open-pro-features-modal" data-theme="cr-theme-custom"></a>
+              <span class="label">Custom <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium">💎<span></span>
+            </li>
+          </ul>
+        </div>
+
+        <div id="options-background-color" class="options-panel-content-section">
+          <label class="float-left">Background Color <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+
+          <div class="input-group color-picker">
+            <label class="color"><input type="color" value="#FFFFFF" class="open-pro-features-modal"></label>
+            <input type="text" class="color" name="background_color" value="#FFFFFF" spellcheck="false" autocomplete="off" disabled />
+          </div>
+        </div>
+
+        <div id="options-text-color" class="options-panel-content-section">
+          <label class="float-left">Text Color <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+
+          <div class="input-group color-picker">
+            <label class="color"><input type="color" value="#333333" class="open-pro-features-modal"></label>
+            <input type="text" class="color" name="text_color" value="#333333" spellcheck="false" autocomplete="off" disabled />
+          </div>
+        </div>
+
+        <div id="options-link-color" class="options-panel-content-section">
+          <label class="float-left">Link Color <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+
+          <div class="input-group color-picker">
+            <label class="color"><input type="color" value="#3B5998" class="open-pro-features-modal"></label>
+            <input type="text" class="color" name="link_color" value="#3B5998" spellcheck="false" autocomplete="off" disabled />
+          </div>
+        </div>
+
+        <button name="save-options-themes" class="btn btn-save-changes m-t-10">Save changes</button>
+      </div>
+
+      <button class="options-panel-header"><i class="fas fa-columns"></i> &nbsp;READER COMPONENTS <i class="fas fa-chevron-down marker"></i></button>
+      <div class="options-panel-content">
+        <div id="options-dark-panel" class="options-panel-content-section">
+          <label class="float-left">Dark Panel <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+          <div class="float-right m-t-7">
+            <label for="cr_dark_panel" class="switch-label open-pro-features-modal"><span class="toggle--off">Off</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-notes" class="options-panel-content-section">
+          <label class="float-left">Notes <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+          <div class="float-right m-t-7">
+            <label for="cr_display_notes" class="switch-label open-pro-features-modal"><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-footer" class="options-panel-content-section">
+          <label class="float-left">Remove Footer <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+          <div class="float-right m-t-7">
+            <label for="cr_display_footer" class="switch-label open-pro-features-modal"><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-auto-scroll" class="options-panel-content-section">
+          <label class="float-left">Auto Scroll <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+          <div class="float-right m-t-7">
+            <label for="cr_auto_scroll" class="switch-label open-pro-features-modal"><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-scroll-speed" class="options-panel-content-section options-with-slider">
+          <label class="float-left">Scrolling Speed <span class="label-pro label-pro-inline tooltip open-pro-features-modal" title="Pro/Premium feature">💎<span></label>
+          <div class="input-label input-label-medium input-label-ms float-right">
+            <input type="number" class="val open-pro-features-modal" name="scroll_speed" value="30000" diabled />
+          </div>
+        </div>
+
+        <div id="options-display-outline" class="options-panel-content-section">
+          <label class="float-left">Outline</label>
+
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_outline" name="outline" class="switch-input">
+            <label for="cr_display_outline" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-images" class="options-panel-content-section">
+          <label class="float-left">Images</label>
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_images" name="display_images" class="switch-input">
+            <label for="cr_display_images" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-meta" class="options-panel-content-section">
+          <label class="float-left">Meta</label>
+
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_meta" name="display_meta" class="switch-input">
+            <label for="cr_display_meta" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-author" class="options-panel-content-section">
+          <label class="float-left">Author</label>
+
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_author" name="display_author" class="switch-input">
+            <label for="cr_display_author" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-reading-time" class="options-panel-content-section">
+          <label class="float-left">Reading Time</label>
+
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_reading_time" name="display_reading_time" class="switch-input">
+            <label for="cr_display_reading_time" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-display-saved-info" class="options-panel-content-section">
+          <label class="float-left">Saved Pages Info</label>
+
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_saved_info" name="display_saved_info" class="switch-input">
+            <label for="cr_display_saved_info" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <button name="save-options-reader-components" class="btn btn-save-changes">Save changes</button>
+      </div>
+
+      <button class="options-panel-header"><i class="fas fa-ruler-horizontal"></i> &nbsp;DYSLEXIA RULER <i class="fas fa-chevron-down marker"></i></button>
+      <div class="options-panel-content">
+        <div id="options-display-ruler" class="options-panel-content-section">
+          <label class="float-left">Ruler</label>
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_display_ruler" name="display_ruler" class="switch-input">
+            <label for="cr_display_ruler" class="switch-label"><span class="toggle--on">Show</span><span class="toggle--off">Hide</span></label>
+          </div>
+        </div>
+
+        <div id="options-ruler-color" class="options-panel-content-section">
+          <label class="float-left">Ruler Color</label>
+
+          <div class="input-group color-picker">
+            <label class="color"><input type="color" value="#a2a2a2" ></label>
+            <input type="text" class="color" name="ruler_color" value="#a2a2a2" spellcheck="false" />
+          </div>
+        </div>
+
+        <div id="options-ruler-height" class="options-panel-content-section options-with-slider m-t-15">
+          <label>Ruler Height</label>
+          <div class="slider-container">
+            <input type="range" min="10" max="250" step="0.1" name="ruler_height" class="slider float-left" value="30">
+            <div class="input-label input-label-px float-right">
+              <input type="number" class="val" value="30" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <div id="options-ruler-position" class="options-panel-content-section options-with-slider">
+          <label>Ruler Position</label>
+          <div class="slider-container">
+            <input type="range" min="10" max="90" step="10" name="ruler_position" class="slider float-left" value="30">
+            <div class="input-label input-label-percentage float-right">
+              <input type="number" class="val" value="15" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <button name="save-options-ruler" class="btn btn-save-changes">Save changes</button>
+      </div>
+
+      <button class="options-panel-header"><i class="fas fa-globe-americas"></i> &nbsp;AUTO-RUN RULES <i class="fas fa-chevron-down marker"></i></button>
+      <div class="options-panel-content">
+        <div id="options-auto-run">
+          <label class="label-block">Auto-run when: </label>
+
+          <div class="options-panel-default-text" style="display:none;">
+            You haven't added any auto-run rules yet
+          </div>
+
+          <ul id="options-auto-run-list">
+          </ul>
+
+          <button name="add_new_rule_toggle" class="btn">Add new rule</button>
+
+          <div id="options-auto-run-add-new-rule-panel" style="display:none;">
+            <div id="anr-header">Auto-run the reader if the page:</div>
+
+            <ul>
+              <li><span><i class="fas fa-check"></i>domain name is:</span> <input type="text" name="domain_name_is" spellcheck="false" autocomplete="off" placeholder="readermode.io" /></li>
+              <li><span><i class="fas fa-check"></i>url is:</span> <input type="text" name="url_is" spellcheck="false" autocomplete="off" placeholder="http://"  /></li>
+              <li><span><i class="fas fa-check"></i>url is not:</span> <input type="text" name="url_is_not" spellcheck="false" autocomplete="off" placeholder="http://" /></li>
+              <li><span><i class="fas fa-check"></i>url contains:</span> <input type="text" name="url_contains" spellcheck="false" autocomplete="off" /></li>
+              <li><span><i class="fas fa-check"></i>url doesn't contain:</span> <input type="text" name="url_does_not_contain" spellcheck="false" autocomplete="off" /></li>
+              <li><span><i class="fas fa-check"></i>url starts with:</span> <input type="text" name="url_starts_with" spellcheck="false" autocomplete="off" /></li>
+              <li><span><i class="fas fa-check"></i>url ends with:</span> <input type="text" name="url_ends_with" spellcheck="false" autocomplete="off" /></li>
+            </ul>
+
+            <button name="cancel_new_rule" class="btn">Cancel</button>
+            <button name="add_new_rule" class="btn">Add new rule</button>
+          </div>
+
+          <br/>
+        </div>
+      </div>
+
+      <button class="options-panel-header"><i class="fas fa-palette"></i> &nbsp;CUSTOM CSS &nbsp;<span class="label-pro tooltip open-pro-features-modal" title="Pro/Premium feature">💎</span><i class="fas fa-chevron-down marker m-t-5"></i></button>
+      <div class="options-panel-content">
+        <div id="options-default-css">
+          <label class="label-block">Add your own style</label>
+          <textarea class="m-t-3" name="name" rows="20" cols="40" spellcheck="false" readonly>
+          </textarea>
+          <button class="btn m-t-10 open-pro-features-modal">Update style</button>
+        </div>
+        <br/>
+      </div>
+
+      <button class="options-panel-header"><i class="fas fa-language"></i>&nbsp;TRANSLATE &nbsp;<span class="label-pro tooltip open-pro-features-modal" title="Pro/Premium feature">💎</span><i class="fas fa-chevron-down marker m-t-2"></i></button>
+      <div class="options-panel-content">
+        <div id="options-translate-to" class="options-panel-content-section">
+          <label class="label-block m-b-10i">Default language to translate to:</label>
+          <label class="float-left">Select: </label>
+          <select class="float-right">
+            <option value="af">🇿🇦 Afrikaans</option>
+            <option value="sq">🇦🇱 Albanian</option>
+            <option value="ar">🇸🇦 Arabic</option>
+            <option value="az">🇦🇿 Azerbaijani</option>
+            <option value="eu">🏴󠁥󠁳󠁰󠁶󠁿 Basque</option>
+            <option value="bn">🇧🇩 Bengali</option>
+            <option value="be">🇧🇾 Belarusian</option>
+            <option value="bg">🇧🇬 Bulgarian</option>
+            <option value="ca">🏴󠁥󠁳󠁰󠁶󠁿 Catalan</option>
+            <option value="zh-CN">🇨🇳 Chinese Simplified</option>
+            <option value="zh-TW">🇨🇳 Chinese Traditional</option>
+            <option value="hr">🇭🇷 Croatian</option>
+            <option value="cs">🇨🇿 Czech</option>
+            <option value="da">🇩🇰 Danish</option>
+            <option value="nl">🇳🇱 Dutch</option>
+            <option value="en" selected>🇬🇧 English</option>
+            <option value="eo">🏴󠁥󠁳󠁰󠁶󠁿 Esperanto</option>
+            <option value="et">🇪🇪 Estonian</option>
+            <option value="tl">🇵🇭 Filipino</option>
+            <option value="fi">🇫🇮 Finnish</option>
+            <option value="fr">🇫🇷 French</option>
+            <option value="gl">🇪🇸 Galician</option>
+            <option value="ka">🇬🇪 Georgian</option>
+            <option value="de">🇩🇪 German</option>
+            <option value="el">🇬🇷 Greek</option>
+            <option value="gu">🇮🇳 Gujarati</option>
+            <option value="ht">🇭🇹 Haitian Creole</option>
+            <option value="iw">🇮🇱 Hebrew</option>
+            <option value="hi">🇮🇳 Hindi</option>
+            <option value="hu">🇭🇺 Hungarian</option>
+            <option value="is">🇮🇸 Icelandic</option>
+            <option value="id">🇮🇩 Indonesian</option>
+            <option value="ga">🇮🇪 Irish</option>
+            <option value="it">🇮🇹 Italian</option>
+            <option value="ja">🇯🇵 Japanese</option>
+            <option value="kn">🇮🇳 Kannada</option>
+            <option value="ko">🇰🇷 Korean</option>
+            <option value="la">🏴󠁥󠁳󠁰󠁶󠁿 Latin</option>
+            <option value="lv">🇱🇻 Latvian</option>
+            <option value="lt">🇱🇹 Lithuanian</option>
+            <option value="mk">🇲🇰 Macedonian</option>
+            <option value="ms">🇲🇾 Malay</option>
+            <option value="mt">🇲🇹 Maltese</option>
+            <option value="no">🇳🇴 Norwegian</option>
+            <option value="fa">🇮🇷 Persian</option>
+            <option value="pl">🇵🇱 Polish</option>
+            <option value="pt">🇵🇹 Portuguese</option>
+            <option value="ro">🇷🇴 Romanian</option>
+            <option value="ru">🇷🇺 Russian</option>
+            <option value="sr">🇷🇸 Serbian</option>
+            <option value="sk">🇸🇰 Slovak</option>
+            <option value="sl">🇸🇮 Slovenian</option>
+            <option value="es">🇪🇸 Spanish</option>
+            <option value="sw">🏴󠁥󠁳󠁰󠁶󠁿 Swahili</option>
+            <option value="sv">🇸🇪 Swedish</option>
+            <option value="ta">🇮🇳 Tamil</option>
+            <option value="te">🇮🇳 Telugu</option>
+            <option value="th">🇹🇭 Thai</option>
+            <option value="tr">🇹🇷 Turkish</option>
+            <option value="uk">🇺🇦 Ukrainian</option>
+            <option value="ur">🇵🇰 Urdu</option>
+            <option value="vi">🇻🇳 Vietnamese</option>
+            <option value="cy">🇬🇧 Welsh</option>
+            <option value="yi">🇮🇱 Yiddish</option>
+          </select>
+
+          <button class="btn btn-save-changes m-t-10 open-pro-features-modal">Save changes</button>
+        </div>
+      </div>
+
+      <button class="options-panel-header">🌳 &nbsp; Eco-Mode &nbsp;<i class="fas fa-chevron-down marker m-t-2"></i></button>
+      <div class="options-panel-content">
+        <p>
+          <small>
+            Manage eco-mode feature <b><a href="https://impacthero.co/manage-settings" target="_blank">here</a></b>
+          </small>
+        </p>  
+        <!--
+        <div id="options-for-planet" class="options-panel-content-section">
+          <label class="float-left">Plant trees for free</label>
+          <div class="float-right m-t-7">
+            <input type="checkbox" id="cr_for_planet" name="for_planet" class="switch-input">
+            <label for="cr_for_planet" class="switch-label"><span class="toggle--on">On</span><span class="toggle--off">Off</span></label>
+          </div>
+        </div>
+        
+        <p class="m-t-25">
+          <small>
+            We've joined forces with <a href="https://impacthero.co?ref=readermode" target="_blank"><b>Impact Hero</b></a> to empower all our users in planting trees and combating climate change while they browse the internet. If you don't want to participate, you can opt-out at any moment.
+          </small>
+        </p>
+
+        <p>
+          <small>
+            Impact Hero is supported by over 50,000 partners, allowing us to provide a completely free service to our users. When you visit the website of one of these merchant partners, you'll notice a new tab opening briefly. This tab allows us to demonstrate to our partners that the generated traffic originates from our user community.
+          </small>
+        </p>  
+
+        <p>
+          <small>
+            👉 &nbsp; Read more about it <b><a href="https://readermode.io/privacy" target="_blank">here</a></b>
+          </small>  
+        </p>
+        --> 
+      </div> 
+    </div>
+
+    <!-- Articulate Panel -->
+    <div id="options-articulate-panel" class="options-panel no-print" style="display:none;">
+      <button class="options-panel-header" style="display: block"><i class="fas fa-volume-up"></i> &nbsp;Text To Speech</button>
+      <div class="options-panel-content" style="display: block">
+        <div id="options-articulate-voice" class="options-panel-content-section">
+          <label for="voice" class="float-left">Voice</label>
+          <select class="float-right">
+          </select>
+        </div>
+
+        <div id="options-articulate-rate" class="options-panel-content-section options-with-slider m-t-15 m-b-0i">
+          <label>Rate</label>
+          <div class="slider-container">
+            <input type="range" min="0" max="2" step="0.1" name="rate" class="slider float-left" value="1">
+            <div class="input-label input-label-small input-label-no-after float-right">
+              <input type="number" class="val rounded" value="1" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <div id="options-articulate-pitch" class="options-panel-content-section options-with-slider">
+          <label for="pitch">Pitch</label>
+          <div class="slider-container">
+            <input type="range" min="0" max="10" step="0.1" name="rate" class="slider float-left" value="1">
+            <div class="input-label input-label-small input-label-no-after float-right">
+              <input type="number" class="val rounded" value="1" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <div id="options-articulate-volume" class="options-panel-content-section options-with-slider">
+          <label for="volume">Volume</label>
+          <div class="slider-container">
+            <input type="range" min="0" max="1" step="0.01" name="rate" class="slider float-left" value="1">
+            <div class="input-label input-label-small input-label-no-after  float-right">
+              <input type="number" class="val rounded" value="1" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <div id="options-articulate-player">
+          <button id="articulate-speak" class="btn btn-player btn-play tooltip-s" title="Start" name="play">
+            <i class="fas fa-play"></i>
+          </button>
+          <button id="articulate-pause" class="btn btn-player btn-pause tooltip-s" title="Pause" name="pause" style="display:none">
+            <i class="fas fa-pause"></i>
+          </button>
+          <button id="articulate-stop" class="btn btn-player btn-stop tooltip-s" title="Stop/Reset" name="stop">
+            <i class="fas fa-stop"></i>
+          </button>
+
+          <button name="save-options-articulate" class="btn btn-save-changes float-right m-t-13">Save changes</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Saved Panel -->
+    <div id="options-saved-panel" class="options-panel no-print" style="display:none;">
+      <div id="options-saved-panel-header">
+        <span class="loading-status"><span class="loading-dots">Saving</span>...</span>
+
+        <a href="#/" class="close">&times;</a>
+      </div>
+
+      <div id="options-saved-panel-body">
+        <div id="osp-footer" class="osp-section">
+          <div id="osp-footer-top">
+            <a href="#/" id="osp-actions-save" class="btn btn-save m-r-7i">
+              <i class="fas fa-save"></i> &nbsp;Save
+            </a>
+
+            <a href="#/" id="osp-actions-delete" class="btn saved-version-notice remove-saved-article" style="display:none;">
+              <i class="fas fa-trash"></i> &nbsp;Delete
+            </a>
+          </div>
+          <div id="osp-footer-bottom">
+            <a href="#/" class="open-saved-articles" target="_blank">
+              Go to dashboard <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main id="site" role="main"></main>
+
+    <!-- Meta -->
+    <ul id="cr-meta" style="display: none">
+    </ul>
+
+    <!-- Main Content -->
+    <div id="cr-content-container">
+      <div id="cr-content-wrapper">
+        <h1 id="cr-title"></h1>
+        <div id="cr-content"></div>
+      </div>
+
+      <div id="cr-ruler" class="no-print" style="display:none"></div>
+
+      <div id="cr-toolbar">
+        <ul class="crt-left">
+          <li>
+            <a href="#/" class="open-pro-features-modal">
+              <i class="fas fa-highlighter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#/" class="open-pro-features-modal">
+              <i class="far fa-comment"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#/" id="cr-toolbar-share-twitter" class="active">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="crt-right">
+          <li>
+            <a href="#/" class="open-pro-features-modal">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <li>
+            <a href="#/" class="open-pro-features-modal">
+              <i class="material-icons">g_translate</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SavedInfo -->
+    <div id="cr-saved-info" class="no-print">
+      <ul>
+        <li class="saved-version-notice" style="display: none;">You are viewing the saved version of the article</li>
+        <li>
+          <a href="#/" class="saved-version-notice remove-saved-article" style="display: none;">
+            <i class="far fa-trash-alt"></i>
+            Delete this article
+          </a>
+        </li>
+        <li>
+          <a href="#/" class="btn btn-xs open-saved-articles">
+            <i class="fas fa-external-link-alt"></i>
+            Go to dashboard
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div id="cr-footer">
+      <p>Generated with <a href="https://readermode.io?ref=readermode" target="_blank">Reader Mode</a></p>
+      <ul class="no-print">
+        <li>
+          <a href="https://airtable.com/shrJZYDwevtCoqck5" target="_blank"><i class="fas fa-comments"></i>Feedback</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/readermode" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+        </li>
+        <li>
+          <a href="https://readermode.io?ref=readermode#get-it-now" target="_blank"><i class="fas fa-rocket"></i>Get Pro</a>
+        </li>
+        <li>
+          <a href="https://readermode.io/premium?ref=readermode" target="_blank"><i class="fas fa-cloud"></i>Get Premium</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Pro Features Tooltip -->
+    <!--
+    <div id="cr-pro-features-tooltip" class="no-print" style="display:none;">
+      <p>
+        Did you know there is a Pro and Premium version of Reader Mode?
+        They have additional features like Theme Customization, Text Annotating, Highlighting, Google Translate, Cloud Storage and more
+      </p>
+      <a href="https://readermode.io/premium?ref=readermode" target="_blank" class="btn">Get Premium</a>
+      <a href="https://readermode.io?ref=readermode#get-it-now" target="_blank" class="btn">Get Pro</a>
+      <a href="#/" class="btn-text not-interested">Not interested</a>
+    </div>
+    -->
+
+    <div id="cr-pro-features-tooltip" class="no-print" style="display:none;">
+      <h4>🌱&nbsp; Reader Mode for Good</h4>
+      <p>
+        Did you know that Reader Mode is commited to the planet? Thanks to Reader Mode for Good, you plant trees for free while you browse online and we've joined forces with <b>Impact Hero</b> (<a href="https://impacthero.co" target="_blank"><b>impacthero.co</b></a>) for this! 
+
+        <br/><br/>
+
+        With this feature enabled, whenever you visit one of our 50,000 partners websites, you'll notice a new tab opening briefly. This tab allows us to demonstrate to our partners that the generated traffic originates from our user community - Please read our <a href="https://readermode.io/privacy" target="_blank"><b>Privacy Policy</b></a> for more information 
+      </p>
+
+      <div class="m-t-30">
+        <div id="readermode-for-good-demo"></div> 
+      </div>
+
+      <center class="m-t-30 m-b-10">
+        <!--
+        <a href="https://readermode.io/premium?ref=readermode" target="_blank" class="btn">Get Premium</a>
+        <a href="https://readermode.io?ref=readermode#get-it-now" target="_blank" class="btn">Get Pro</a>
+        -->
+
+        <p>
+          To participate, just click the button below to begin making a meaningful difference:
+        </p> 
+
+        <a href="#/" class="btn-text opt-in btn">Let's <span class="opt-in-verb">start</span> planting trees! 🌳</a>
+
+        <br/>
+
+        <a href="#/" class="btn-text opt-out btn">Not interested</a>     
+      </center>
+    </div>
+  </div>
+</div>
+
+<div id="cr-pro-features-modal" class="no-print" style="display:none;">
+  <div id="cr-pro-features-modal-content">
+    <span id="cr-pro-features-modal-close"><i class="fas fa-times"></i></span>
+    <div id="cr-pro-features-modal-activation">
+      <h1 id="cr-pro-features-modal-h1">✨ You've found a Pro/Premium feature ✨</h1>
+      <p>
+        The feature you are trying to use is only available in the <a href="https://readermode.io?ref=readermode" target="_blank"><b>Pro</b></a>
+        and <a href="https://readermode.io/premium?ref=readermode" target="_blank"><b>Premium</b></a> version.
+        <br/>
+        <a href="https://readermode.io?ref=readermode" target="_blank"><b>Get them today</b></a> to unlock all this amazing extra features:
+      </p>
+
+      <center>
+        <table>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Theme customization
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Theme customization
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Custom theme
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Custom theme
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Custom css
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Custom css
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Pro fonts
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Pro fonts
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Text annotating and highlighting
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Text annotating and highlighting
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Dark Panel mode
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Dark Panel mode
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Google Search
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Google Search
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Google Translate
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Google Translate
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Auto-scroll functionality
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Auto-scroll functionality
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Remove footer option
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Remove footer option
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Unlimited cloud storage
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Unlimited cloud storage
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Share articles in Reader Mode format
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Share articles in Reader Mode format
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Read-it-later mode
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Read-it-later mode
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Research mode
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Research mode
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Full-text search
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Full-text search
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Favourites
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Favourites
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Tags
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Tags
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Organization folders
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Organization folders
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Sync styles & settings
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Sync styles & settings
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Organization folders
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Organization folders
+            </td>
+          </tr>
+          <tr>
+            <td class="missing">
+              <i class="fas fa-times" aria-hidden="true"></i> Citation generator
+            </td>
+            <td>
+              <i class="fas fa-check" aria-hidden="true"></i> Citation generator
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://readermode.io/?ref=readermode" target="_blank" class="btn">
+                Get Pro version
+              </a>
+            </td>
+            <td>
+              <a href="https://readermode.io/premium?ref=readermode" target="_blank" class="btn btn-premium">
+                Get Premium version
+              </a>
+            </td>
+          </tr>
+        </table>
+      </center>
+
+    </div>
+  </div>
+</div>
+
+<div id="cr-safe-browsing" style="display:none">
+  <div id="crsb-rm-logo">
+  </div>
+
+  <p>
+    To allow us to continue running our Reader Mode product smoothly, please allow us to read and access your web browsing. We do not collect any personal data — please read our <a href="https://readermode.io/privacy" target="_blank">Privacy Policy</a> for more information.
+  </p>  
+
+  <br/>
+
+  
+
+  <br/>
+
+  <center>
+    <button id="crsb-agree" class="btn btn-md btn-primary">Agree & Continue</button>
+    <button id="crsb-decline" class="btn btn-md btn-default">Decline</button>
+  </center>
+</div>  
+
+<!--
+<scri pt type="text/javascript">
+  (function() {
+    // Tlite
+    function tlite(t){document.addEventListener("mouseover",function(e){var i=e.target,n=t(i);n||(n=(i=i.parentElement)&&t(i)),n&&tlite.show(i,n,!0)})}tlite.show=function(t,e,i){var n="data-tlite";e=e||{},(t.tooltip||function(t,e){function o(){tlite.hide(t,!0)}function l(){r||(r=function(t,e,i){function n(){o.className="tlite tlite-"+r+s;var e=t.offsetTop,i=t.offsetLeft;o.offsetParent===t&&(e=i=0);var n=t.offsetWidth,l=t.offsetHeight,d=o.offsetHeight,f=o.offsetWidth,a=i+n/2;o.style.top=("s"===r?e-d-10:"n"===r?e+l+10:e+l/2-d/2)+"px",o.style.left=("w"===s?i:"e"===s?i+n-f:"w"===r?i+n+10:"e"===r?i-f-10:a-f/2)+"px"}var o=document.createElement("span"),l=i.grav||t.getAttribute("data-tlite")||"n";o.innerHTML=e,t.appendChild(o);var r=l[0]||"",s=l[1]||"";n();var d=o.getBoundingClientRect();return"s"===r&&d.top<0?(r="n",n()):"n"===r&&d.bottom>window.innerHeight?(r="s",n()):"e"===r&&d.left<0?(r="w",n()):"w"===r&&d.right>window.innerWidth&&(r="e",n()),o.className+=" tlite-visible",o}(t,d,e))}var r,s,d;return t.addEventListener("mousedown",o),t.addEventListener("mouseleave",o),t.tooltip={show:function(){d=t.title||t.getAttribute(n)||d,t.title="",t.setAttribute(n,""),d&&!s&&(s=setTimeout(l,i?150:1))},hide:function(t){if(i===t){s=clearTimeout(s);var e=r&&r.parentNode;e&&e.removeChild(r),r=void 0}}}}(t,e)).show()},tlite.hide=function(t,e){t.tooltip&&t.tooltip.hide(e)},"undefined"!=typeof module&&module.exports&&(module.exports=tlite);
+
+    function classWhen(t){var n=(t.className||"").split(" ");return function(t,o){return~n.indexOf(t)&&o}}tlite(function(t){var o=classWhen(t);return o("tooltip",{grav:"s"})||o("tooltip-n",{grav:"n"})||o("tooltip-s",{grav:"s"})||o("tooltip-w",{grav:"w"})||o("tooltip-e",{grav:"e"})||o("tooltip-se",{grav:"se"})||o("tooltip-ne",{grav:"ne"})||o("tooltip-sw",{grav:"sw"})||o("tooltip-nw",{grav:"nw"})});
+    tlite(function (el) { return el.className === 'tooltip' });
+  })();
+</script>
+-->

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0 50px 20px;
+}
+a{
+  text-decoration: none;
+  color: #1f66ec;
+}
+footer a{
+  font-weight: 700;
+}
+#cr-saved-pages {
+  background-color: white;
+  overflow: auto;
+  width: 515px;
+  overflow-y: auto;
+  height: 200px;
+  padding-top: 10px;
+}
+#cr-storage-info{
+  margin-top: 10px;
+}
+#cr-saved-pages h2 {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 0px;
+  margin: 0 !important;
+}
+#cr-saved-pages-default{
+  margin-top: 0px;
+}
+ul#cr-saved-pages-list{
+  padding: 0;
+  margin: 0;
+}
+ul#cr-saved-pages-list li{
+  margin-bottom: 7px;
+}
+ul#cr-saved-pages-list li button{
+  cursor: pointer;
+  margin-left: 7px;
+}

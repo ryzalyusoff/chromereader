@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    body {
+      /*height: 130px;*/
+      margin: 0;
+      background: #FFF;
+      text-align: left;
+      font-family: Arial;
+      margin:20px;
+      /*width: 300px;*/
+    }
+
+    .btn_ih {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      border:  0px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 16px;
+      background: #009244;
+      padding: 5px 10px 5px 10px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .btn_ih:hover {
+      background: #00803c;
+      text-decoration: none;
+    }
+    .btn2_ih{
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: Arial;
+      color: #009245;
+      background: #ffffff;
+      font-size: 16px;
+      padding: 5px 10px 5px 10px;
+      border: solid #009245 2px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn2_ih:hover {
+      background: #00803c;
+      color: #FFF;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .close-button {
+      border: none;
+      display: inline-block;
+      padding: 8px 16px;
+      vertical-align: middle;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      background-color: inherit;
+      text-align: center;
+      cursor: pointer;
+      white-space: nowrap;
+      font-size: 23px;
+    }
+    .topright {
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+    #myProgress {
+      width: 100%;
+      background-color: grey;
+    }
+
+    #myBar {
+      width: 1%;
+      height: 3px;
+      background-color: green;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="notif">
+      <span id="closeButtonTop" class="close-button topright" style="visibility:hidden;">&times;</span>
+      <p><font style="font-weight:600;font-size: 18px;" data-message="title">🌱 Eco-friendly Mode | </font> <font style="font-weight:600;font-size: 18px;">Reader Mode</font></p>
+      <font style="font-weight:500;font-size: 16px;" data-message="subtitle">Why a new tab briefly auto-opened?</font>
+      <p style="font-weight:400;font-size: 14px;" data-message="message">You have activated our eco-friendly mode, meaning that you will now plant trees and offset carbon emissions for free as you browse the web.<br/><br/> Each time you visit one of our 50,000 merchant partners, <b>you'll observe a brief opening of a new tab</b>. This tab facilitates the calculation of the required carbon offset.</p>
+      <center><img style="height: 100px;" src="tab-demo.gif"/>
+      <br/>
+      <p><font style="font-weight:600;font-size: 16px;" data-message="congrats">Congrats, you're now offsetting carbon for free</font></p>
+
+      <a type=button class="btn_ih" id="learnMore" data-message="button_learn_more">Learn More2</a>&nbsp;&nbsp;&nbsp;<a type=button class="btn2_ih" id="closeButton" data-message="button_close">Close window</a>
+    </center></div>
+    <script src="popup_notification.js"></script>
+  </body>
+</html>

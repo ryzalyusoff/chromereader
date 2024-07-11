@@ -1,0 +1,121 @@
+#cr-safe-browsing {
+  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  font-size: 14px;
+  width: 500px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+  margin: 320px auto;
+  padding: 30px;
+  border-radius: 15px;
+  position: relative;
+}
+#cr-safe-browsing p {
+  margin-top: 7px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+#crsb-rm-logo {
+  position: absolute;
+  top: -90px;
+  left: 195px;
+  width: 180px;
+  height: 43px;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image:url('chrome-extension://__MSG_@@extension_id__/assets/images/readermode-logo.png');
+}
+#cr-safe-browsing .btn {
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 7px;
+  outline: 0;
+  border: 0;
+  margin-right: 7px;
+  cursor: pointer;
+}
+#cr-safe-browsing .btn.btn-primary {
+  background-color: #1E73EC;
+  border: 1px solid #1E73EC;
+  color: #fff;
+}
+#cr-safe-browsing a {
+  color: #1E73EC;
+  text-decoration: none;
+}
+
+#cr-body {
+  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#cr-body a{
+  text-decoration: none;
+}
+
+#cr-outline{
+  width: 250px;
+  position: fixed;
+  top: 65px;
+  left: 30px;
+}
+
+#cr-content-wrapper a{
+  text-decoration: underline;
+}
+
+h1#cr-title,
+#cr-content h1,
+#cr-content h2,
+#cr-content h3,
+#cr-content h4,
+#cr-content h5,
+#cr-content h6 {
+  font-weight: 700;
+  line-height: 1.3em;
+  font-family: inherit;
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
+}
+#cr-content p{
+  word-break: break-word;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+#cr-content figure{
+  padding: 0;
+  margin: 0;
+}
+#cr-content img{
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 30px auto;
+  display: block;
+}
+#cr-content table{
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+#cr-content table td, #cr-content table th {
+  text-align: left;
+  font-size: 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  border-image: initial;
+  padding: 17px;
+}
+#cr-content blockquote {
+  text-decoration: none;
+  opacity: 0.7;
+}
+#cr-content blockquote:before {
+  content: '\e244';
+  font-family: "Material Icons";
+  float: left;
+  font-size: 350%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 0.6;
+  opacity: 0.2;
+}
