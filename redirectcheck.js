@@ -64,7 +64,7 @@ window.addEventListener("load", () => {
 });
 
 
-
+/*
  //------------------ CONSENT POPUP -----------------------
 window.addEventListener('translationsReady', () => {
 
@@ -72,7 +72,7 @@ window.addEventListener('translationsReady', () => {
    // Check if the user has already responded
    chrome.storage.local.get(['permissionsGranted'], function(result) {
 
-       if (result.permissionsGranted === undefined) {
+      if (result.permissionsGranted === undefined) {
 
         
         //prevent displaying consent popup on information page
@@ -206,6 +206,7 @@ window.addEventListener('translationsReady', () => {
 
 
  });
+ */
 
 
 
