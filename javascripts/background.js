@@ -1,13 +1,13 @@
 import * as impactheroModule from '/javascripts/impacthero_background.js';
 impactheroModule.initialize();
 
-import '/javascripts/libs/pageStatistics.js';
 import '/javascripts/libs/safe-browsing.js';
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   if (request.action == 'safe-browsing-agreement') {
     // Store and remember user's click stream consent
     chrome.storage.local.set({ safe_browsing: request.agreement });
+    chrome.storage.local.set({ permissionsGranted: request.agreement });
   } else if (request.action == 'safe-browsing-start') {
     globalThis.safeBrowsing().then((service) => service.enable());
   } else {

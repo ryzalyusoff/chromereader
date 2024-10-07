@@ -1800,7 +1800,7 @@ function init(){
 
     // Upsell Tooltip
     proFeaturesModal(doc);
-    //upsellTooltip(doc);
+    upsellTooltip(doc);
 
   }).catch(err => {
     alert("Ops..something wrong, please try again.")
