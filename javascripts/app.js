@@ -1500,7 +1500,6 @@ function overrideStyles(doc) {
 }
 
 // Upsell Tooltip
-/*
 function upsellTooltip(doc){
   var cr_opened_counter = 0;
   chrome.storage.sync.get(['cr_not_interested_in_pro_tooltip'],function(result){
@@ -1534,7 +1533,8 @@ function upsellTooltip(doc){
     chrome.storage.sync.set({cr_not_interested_in_pro_tooltip: "true"});
   });
 }
-*/
+
+/*
 function upsellTooltip(doc){
   var cr_opened_counter_2 = 0;
   chrome.storage.local.get(['cr_opened_counter','cr_opened_counter_2','cr_for_planet','cr_not_interested_in_pro_tooltip'],function(result){
@@ -1588,6 +1588,7 @@ function upsellTooltip(doc){
     $(doc).find("#cr_for_planet").prop("checked",false);
   });
 }
+*/
 
 function proFeaturesModal(doc){
   $(doc).find(".open-pro-features-modal").click(function(e){

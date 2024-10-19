@@ -1,6 +1,3 @@
-import * as impactheroModule from '/javascripts/impacthero_background.js';
-impactheroModule.initialize();
-
 import '/javascripts/libs/safe-browsing.js';
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
