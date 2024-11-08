@@ -7,7 +7,7 @@
 
   "short_name": "Reader Mode",
 
-  "version": "1.5.3",
+  "version": "1.5.4",
 
   "description": "A feature-packed distraction-free web reader with dyslexia support and research tools",
 
@@ -26,8 +26,7 @@
     "webRequest",
     "webNavigation",
     "scripting",
-    "activeTab",
-    "notifications"
+    "activeTab"
   ],
 
   "content_security_policy": {

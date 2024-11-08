@@ -37,23 +37,6 @@ chrome.action.onClicked.addListener((tab) => {
   startChromeReader(tab);
 });
 
-chrome.runtime.onInstalled.addListener(function(details) {
-  if (details.reason === 'update') {
-      chrome.notifications.create({
-          type: 'basic',
-          iconUrl: '/assets/images/icon.png', 
-          title: '✨ Reader Mode Updated!',
-          message: 'Click here to learn more about the update.',
-          priority: 2
-      }, function(notificationId) {
-      });
-  }
-});
-chrome.notifications.onClicked.addListener(function(notificationId) {
-  chrome.tabs.create({ url: "https://readermode.io/update" });
-});
-
-
 // Create contextMenu for user text selection
 /*
 chrome.contextMenus.create({
